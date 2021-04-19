@@ -1,0 +1,125 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b56cbdb0c0cb802ec114c3530e2fe131") format("truetype"),
+url("./flaticon.woff?b56cbdb0c0cb802ec114c3530e2fe131") format("woff"),
+url("./flaticon.woff2?b56cbdb0c0cb802ec114c3530e2fe131") format("woff2"),
+url("./flaticon.eot?b56cbdb0c0cb802ec114c3530e2fe131#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b56cbdb0c0cb802ec114c3530e2fe131#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "calendar": "\f101",
+    "dollars-money-bag-with-a-clock": "\f102",
+    "down-chevron-1": "\f103",
+    "down-chevron": "\f104",
+    "envelope": "\f105",
+    "evaluate": "\f106",
+    "facebook": "\f107",
+    "instagram": "\f108",
+    "insurance": "\f109",
+    "linkedin": "\f10a",
+    "loupe-1": "\f10b",
+    "loupe": "\f10c",
+    "marketing-strategy": "\f10d",
+    "medal-of-award": "\f10e",
+    "paper-plane": "\f10f",
+    "phone-call": "\f110",
+    "placeholder": "\f111",
+    "star-1": "\f112",
+    "star": "\f113",
+    "strategy-in-a-labyrinth": "\f114",
+    "trend": "\f115",
+    "twitter": "\f116",
+    "user": "\f117",
+    "wall-clock": "\f118",
+    "youtube": "\f119",
+);
+
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-dollars-money-bag-with-a-clock:before {
+    content: map-get($flaticon-map, "dollars-money-bag-with-a-clock");
+}
+.flaticon-down-chevron-1:before {
+    content: map-get($flaticon-map, "down-chevron-1");
+}
+.flaticon-down-chevron:before {
+    content: map-get($flaticon-map, "down-chevron");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-evaluate:before {
+    content: map-get($flaticon-map, "evaluate");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-loupe-1:before {
+    content: map-get($flaticon-map, "loupe-1");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-marketing-strategy:before {
+    content: map-get($flaticon-map, "marketing-strategy");
+}
+.flaticon-medal-of-award:before {
+    content: map-get($flaticon-map, "medal-of-award");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon-map, "paper-plane");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-strategy-in-a-labyrinth:before {
+    content: map-get($flaticon-map, "strategy-in-a-labyrinth");
+}
+.flaticon-trend:before {
+    content: map-get($flaticon-map, "trend");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}

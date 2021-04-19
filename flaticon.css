@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?b56cbdb0c0cb802ec114c3530e2fe131") format("truetype"),
+url("./flaticon.woff?b56cbdb0c0cb802ec114c3530e2fe131") format("woff"),
+url("./flaticon.woff2?b56cbdb0c0cb802ec114c3530e2fe131") format("woff2"),
+url("./flaticon.eot?b56cbdb0c0cb802ec114c3530e2fe131#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b56cbdb0c0cb802ec114c3530e2fe131#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-calendar:before {
+    content: "\f101";
+}
+.flaticon-dollars-money-bag-with-a-clock:before {
+    content: "\f102";
+}
+.flaticon-down-chevron-1:before {
+    content: "\f103";
+}
+.flaticon-down-chevron:before {
+    content: "\f104";
+}
+.flaticon-envelope:before {
+    content: "\f105";
+}
+.flaticon-evaluate:before {
+    content: "\f106";
+}
+.flaticon-facebook:before {
+    content: "\f107";
+}
+.flaticon-instagram:before {
+    content: "\f108";
+}
+.flaticon-insurance:before {
+    content: "\f109";
+}
+.flaticon-linkedin:before {
+    content: "\f10a";
+}
+.flaticon-loupe-1:before {
+    content: "\f10b";
+}
+.flaticon-loupe:before {
+    content: "\f10c";
+}
+.flaticon-marketing-strategy:before {
+    content: "\f10d";
+}
+.flaticon-medal-of-award:before {
+    content: "\f10e";
+}
+.flaticon-paper-plane:before {
+    content: "\f10f";
+}
+.flaticon-phone-call:before {
+    content: "\f110";
+}
+.flaticon-placeholder:before {
+    content: "\f111";
+}
+.flaticon-star-1:before {
+    content: "\f112";
+}
+.flaticon-star:before {
+    content: "\f113";
+}
+.flaticon-strategy-in-a-labyrinth:before {
+    content: "\f114";
+}
+.flaticon-trend:before {
+    content: "\f115";
+}
+.flaticon-twitter:before {
+    content: "\f116";
+}
+.flaticon-user:before {
+    content: "\f117";
+}
+.flaticon-wall-clock:before {
+    content: "\f118";
+}
+.flaticon-youtube:before {
+    content: "\f119";
+}
